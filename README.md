@@ -210,15 +210,12 @@ The full commit history is available in the GitHub repository.
 
 **GitHub Repository:** 
 
-<<<<<<< HEAD
-`[paste repository URL here]`
-=======
-https://github.com/dashatelikadah-coder/A3-Web-Design.git
->>>>>>> cae6cce221919d443c210fca88a4fe95e292ba67
+https://github.com/dashatelikadah-coder/Web_design_A3.git`
+
 
 **Live Website:** 
 
-`[paste GitHub Pages URL here]`
+https://dashatelikadah-coder.github.io/Web_design_A3/
 
 ## Known Limitations
 
