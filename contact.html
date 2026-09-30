@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Mercy Hire Car or submit a booking enquiry for a hire vehicle in Lae, Papua New Guinea.">
+    <title>Mercy Hire Car | Contact &amp; Booking</title>
+        <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <h1>Mercy Hire Car</h1>
+        <p>Reliable Hire Cars in Lae, Morobe Province</p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services &amp; Vehicles</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" aria-current="page">Contact &amp; Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <address>
+                Mercy Hire Car<br>
+                Lae, Morobe Province, Papua New Guinea<br>
+                Phone: <a href="tel:+67500000000">+675 000 0000</a><br>
+                Email: <a href="mailto:info@mercyhirecar.example.pg">info@mercyhirecar.example.pg</a>
+            </address>
+        </section>
+
+        <section aria-labelledby="booking-heading">
+            <h2 id="booking-heading">Booking &amp; Enquiry Form</h2>
+            <p>Fields marked with an asterisk (*) are required.</p>
+
+            <form action="https://example.com/submit-booking" method="post">
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <p>
+                        <label for="full-name">Full Name *</label><br>
+                        <input type="text" id="full-name" name="full-name" required minlength="2" placeholder="e.g. John Kaupa">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address *</label><br>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number *</label><br>
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9+ ]{7,15}" placeholder="e.g. +675 000 0000">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hire Details</legend>
+
+                    <p>
+                        <label for="vehicle-type">Preferred Vehicle Type *</label><br>
+                        <select id="vehicle-type" name="vehicle-type" required>
+                            <option value="">-- Please choose --</option>
+                            <option value="sedan">10 seater land cruiser</option>
+                            <option value="suv">Toyota Hilux 4 door</option>
+                            <option value="van">Passenger Bus</option>
+                            <option value="van">5 door land cruiser</option>
+                            <option value="van">4 door land cruiser</option>
+                            <option value="no-preference">No preference</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="hire-type">Hire Type *</label><br>
+                        <input type="radio" id="self-drive" name="hire-type" value="self-drive" required>
+                        <label for="self-drive">Self-drive</label><br>
+                        <input type="radio" id="driver-included" name="hire-type" value="driver-included">
+                        <label for="driver-included">Driver-included</label>
+                    </p>
+
+                    <p>
+                        <label for="pickup-date">Pick-up Date *</label><br>
+                        <input type="date" id="pickup-date" name="pickup-date" required>
+                    </p>
+
+                    <p>
+                        <label for="return-date">Return Date *</label><br>
+                        <input type="date" id="return-date" name="return-date" required>
+                    </p>
+
+                    <p>
+                        <label for="passengers">Number of Passengers</label><br>
+                        <input type="number" id="passengers" name="passengers" min="1" max="20" value="1">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <p>
+                        <label for="message">Message or Special Requests</label><br>
+                        <textarea id="message" name="message" rows="5" cols="40" placeholder="Let us know anything else we should know about your hire."></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Submit Enquiry</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </form>
+        </section>
+
+        <section aria-labelledby="map-heading">
+            <h2 id="map-heading">Find Us</h2>
+            <p>Our office is located in central Lae, Morobe Province. Call ahead to confirm directions if you are visiting for the first time.</p>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            Mercy Hire Car<br>
+            Lae, Morobe Province, Papua New Guinea<br>
+            Phone: <a href="tel:+67500000000">+675 000 0000</a><br>
+            Email: <a href="mailto:info@mercyhirecar.example.pg">info@mercyhirecar.example.pg</a>
+        </address>
+        <p>&copy; 2026 Mercy Hire Car. All rights reserved.</p>
+    </footer>
+</body>
+</html>
