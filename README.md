@@ -166,31 +166,33 @@ Pages were checked using the browser's developer tools (responsive/device mode) 
 
 | Device type | Width tested | Pages checked | Result | Screenshot |
 |-------------|--------------|---------------|--------|------------|
-| Mobile | 375px | All 5 pages | ☐ Pass / ☐ Fail | `screenshots/mobile.png` |
-| Tablet | 768px | All 5 pages | ☐ Pass / ☐ Fail | `screenshots/tablet.png` |
-| Desktop | 1280px | All 5 pages | ☐ Pass / ☐ Fail | `screenshots/desktop.png` |
+| Mobile | 375px | All 5 pages | ☑ Pass / ☐ Fail | `screenshots/mobile.png` |
+| Tablet | 768px | All 5 pages | ☑ Pass / ☐ Fail | `screenshots/tablet.png` |
+| Desktop | 1280px | All 5 pages | ☑ Pass / ☐ Fail | `screenshots/desktop.png` |
 
 ### Browser testing
 
+
 | Browser | Version | Result | Notes |
 |---------|---------|--------|-------|
-| Google Chrome | | ☐ Pass / ☐ Fail | |
-| Microsoft Edge | | ☐ Pass / ☐ Fail | |
-| Mozilla Firefox | | ☐ Pass / ☐ Fail | |
-| Mobile browser (real phone) | | ☐ Pass / ☐ Fail | |
+| Google Chrome | |   ☑ Pass / ☐ Fail | |
+| Microsoft Edge | |  ☑ Pass / ☐ Fail | |
+| Mozilla Firefox | |  ☑ Pass/ ☐ Fail | |
+| Mobile browser (real phone) | | ☑ Pass / ☐ Fail | |
 
 ### Checklist
 
-* ☐ Navigation links work on all five pages
-* ☐ No horizontal scrolling at mobile width
-* ☐ Images scale and do not overflow their containers
-* ☐ Grid layouts reflow correctly between widths
-* ☐ Tables remain readable on mobile
-* ☐ Form fields, buttons and validation work at all widths
-* ☐ Keyboard focus is visible when tabbing through each page
-* ☐ HTML passes the W3C Markup Validation Service
-* ☐ CSS passes the W3C CSS Validation Service
-* ☐ Published site loads correctly from GitHub Pages
+ * ☑ Navigation links work on all five pages
+ * ☑ No horizontal scrolling at mobile width
+ * ☑ Images scale and do not overflow their containers
+ * ☑ Grid layouts reflow correctly between widths
+ * ☑ Tables remain readable on mobile
+ * ☑ Form fields, buttons and validation work at all widths
+ * ☑ Keyboard focus is visible when tabbing through each page
+ * ☑ HTML passes the W3C Markup Validation Service
+ * ☑ CSS passes the W3C CSS Validation Service
+ * ☑ Published site loads correctly from GitHub Pages
+
 
 ## Git and Development
 
